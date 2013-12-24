@@ -14,9 +14,11 @@ title: Page Not Found
                 {% if page.layout != 'feed' %}
                 {% if page.title != 'Page Not Found' %}
                 {% if page.title != 'Robots' %}
+                {% if page.title != 'Sitemap' %}
                 {% if page.title != '' %}
                 {% if page.title != nil %}
                     <li><a href="{{ page.url | remove: 'index.html' }}" title="{{ page.title }}">{{ page.title }}</a></li>
+                {% endif %}
                 {% endif %}
                 {% endif %}
                 {% endif %}
