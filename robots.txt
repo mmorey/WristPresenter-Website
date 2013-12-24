@@ -1,0 +1,7 @@
+---
+layout: none
+title: Robots
+---
+# robotstxt.org/
+User-agent: *
+Disallow:

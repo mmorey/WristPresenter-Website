@@ -1,0 +1,13 @@
+safe: true
+lsi: false
+pygments: true
+exclude: []
+include: ['.htaccess']
+timezone: America/Chicago
+name: "Wrist Presenter, Wireless Presentation Control with the Pebble Smartwatch"
+description: "Wrist Presenter is an iOS app that lets you control presentation wirelessly with your Pebble Smartwatch."
+keywords:
+- Matthew Morey
+- iOS App
+- Pebble Smartwatch
+url: http://wristpresenter.com

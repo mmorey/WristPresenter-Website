@@ -1,0 +1,250 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #000000;
+  background-color: rgb(225, 225, 225);
+}
+
+a:link {
+  text-decoration: none;
+  color: #01a89b;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #01a89b;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #015d31;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*
+ * Header
+ */
+.content-header {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #01a89b;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #01A89A),
+    color-stop(1, #1FB375)
+  );
+  background-image: -o-linear-gradient(bottom, #01A89A 0%, #1FB375 100%);
+  background-image: -moz-linear-gradient(bottom, #01A89A 0%, #1FB375 100%);
+  background-image: -webkit-linear-gradient(bottom, #01A89A 0%, #1FB375 100%);
+  background-image: -ms-linear-gradient(bottom, #01A89A 0%, #1FB375 100%);
+  background-image: linear-gradient(to bottom, #01A89A 0%, #1FB375 100%);
+  text-align: center;
+}
+
+.content-header p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* Header left */
+.content-header-left h2 {
+  margin-top: 12%;
+}
+
+.content-header-left p {
+  margin-top: 5%;
+}
+
+.content-header-left img {
+  margin-top: 5%;
+}
+
+/* Header right */
+.content-header-right img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Page header */
+.content-header-page h1 {
+  text-align: left;
+  margin: 0;
+}
+
+.content-header-page a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content-header-page a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content-header-page a:active {
+  text-decoration: none;
+}
+
+.content-header-page a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content-header-right-page {
+  text-align: right;
+}
+
+@media (max-width: 992px) { 
+  .content-header-left-page {
+    text-align: center;
+  }
+  .content-header-right-page {
+    text-align: center;
+  }
+  .content-header-left-page h1 {
+    text-align: center;
+  }
+}
+
+/*
+ * Body
+ */
+.content-body {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 30px 60px;
+}
+
+.content-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-outer {
+  display:table;
+  width:100%;
+}
+
+.feature-inner {
+  display: table-cell;
+  vertical-align:middle;
+}
+
+.content-body-page ul {
+  list-style: disc;
+  text-align: left;
+  padding: 1em;
+}
+
+.legal p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.support p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.support h4 {
+  text-align: left;
+  margin-top: 2em;
+}
+
+@media (max-width: 767px) { 
+
+  .content-body {
+    padding: 10px 5px;
+  }
+
+  .content-body img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .feature-outer {
+    display: block;
+  }
+
+  .feature-inner {
+    display: block;
+  }
+}
+
+/*
+ * content footer
+ */
+.content-footer {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.content-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-footer-left {
+  text-align: left;
+}
+
+.content-footer-left img {
+  margin-right: 20px;
+  float: left;
+}
+
+.content-footer-right {
+  text-align: right;
+}
+
+.content-footer p {
+  font-size: 16px;
+}
+
+.content-footer ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+@media (max-width: 992px) { 
+  .content-footer-left {
+    text-align: center;
+  }
+
+  .content-footer-left img {
+    margin-right: 0;
+    float: none;
+  }
+
+  .content-footer-right {
+    text-align: center;
+  }
+
+  .content-footer ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,29 @@
+---
+layout: page
+title: Page Not Found
+---
+
+        <div class="row content-body content-body-page">
+            <div class="col-md-12">
+                <a name="content"></a>
+                <p>The page you are looking for could not be found. Try one of these:</p>
+                <ul>
+                    <li><a href="/" title="Wrist Presenter home page">Homepage</a></li>
+                {% for page in site.pages %}
+                {% if page.layout != nil %}
+                {% if page.layout != 'feed' %}
+                {% if page.title != 'Page Not Found' %}
+                {% if page.title != 'Robots' %}
+                {% if page.title != '' %}
+                {% if page.title != nil %}
+                    <li><a href="{{ page.url | remove: 'index.html' }}" title="{{ page.title }}">{{ page.title }}</a></li>
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+
+            </div> <!-- <div class="col-md-12"> -->
+        </div> <!-- <div class="content-body"> -->
