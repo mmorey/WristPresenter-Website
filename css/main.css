@@ -174,7 +174,7 @@ p {
   margin-top: 2em;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 992px) { 
 
   .content-body {
     padding: 10px 5px;
