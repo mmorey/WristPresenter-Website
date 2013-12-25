@@ -28,7 +28,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Matthew Morey">
-    <meta name="apple-itunes-app" content="app-id=593296099, affiliate-data=at=10l6oV&amp;ct=wp_appstore_banner">
+    <meta name="apple-itunes-app" content="app-id={{ site.app_id }}, affiliate-data=at=10l6oV&amp;ct=wp_appstore_banner">
 
     <!-- Fav Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon-152.png">
@@ -43,12 +43,14 @@
     <meta itemprop="image" content="{{ site.url}}/img/app_screenshot01@2x.png">
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="product">
-    <meta name="twitter:site" content="@wristpresenter">
+    <meta name="twitter:card" content="app">
     <meta name="twitter:title" content="{{ site.name }}">
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:creator" content="@xzolian">
+    <meta name="twitter:site" content="@wristpresenter">
     <meta name="twitter:image" content="{{ site.url}}/img/app_screenshot01@2x.png">
+    <meta name="twitter:app:name:iphone" content="{{ site.name }}"/>
+    <meta name="twitter:app:id:iphone" content="{{ site.app_id }}">
 
     <!-- Open Graph data -->
     <meta property="og:title" content="{{ site.name }}">
