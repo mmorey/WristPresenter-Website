@@ -1,7 +1,7 @@
 safe: true
 lsi: false
 pygments: true
-exclude: []
+exclude: ['page_template.html', 'index_template.html', 'README.md', 'TODO.md', 'Gemfile', 'Gemfile.lock']
 include: ['.htaccess']
 timezone: America/Chicago
 name: "Wrist Presenter, Wireless Presentation Control with the Pebble Smartwatch"
