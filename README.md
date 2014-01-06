@@ -1,1 +1,1 @@
-Website for iOS app Wrist Presenter.
+[Website](http://wristpresenter.com) for Wrist Presenter app.
