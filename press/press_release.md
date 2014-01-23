@@ -10,7 +10,7 @@ Presentations can be easily loaded via iTunes USB File Sharing, from other iOS a
 
 ### Android
 
-Choose presentations from your Google Drive account(s). View them on a projector with a [Miracast dongle](http://www.amazon.com/gp/product/B00H2D3N0M/ref=as_li_qf_sp_asin_il?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00H2D3N0M&linkCode=as2&tag=slacod-20) or an [HDMI adapter](http://www.kanexlive.com/slimport) on compatible devices. Chromecast support is planned for a future release.
+Choose presentations from your Google Drive account(s). View them on a projector with a Miracast dongle or an HDMI adapter on compatible devices. Chromecast support is planned for a future release.
 
 ## Wrist Presenter Features
 
