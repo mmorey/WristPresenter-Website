@@ -207,6 +207,10 @@ p {
   padding: 0;
 }
 
+.content-footer p {
+  font-size: 16px;
+}
+
 .content-footer-left {
   text-align: left;
 }
@@ -216,12 +220,12 @@ p {
   float: left;
 }
 
-.content-footer-right {
-  text-align: right;
+.content-footer-left p {
+  font-size: 14px;
 }
 
-.content-footer p {
-  font-size: 16px;
+.content-footer-right {
+  text-align: right;
 }
 
 .content-footer ul li {
