@@ -1,9 +1,9 @@
 {
     "watchapp": {
-        "date": "2013-01-12",
-        "version": "1.0.2",
-        "build": "3",
-        "release_notes":"Support for SDK 2 Beta 5",
-        "url": "http://wristpresenter.com/watchapp/wrist-presenter.pbw"
+        "date": "2014-08-09",
+        "version": "1.1.0",
+        "build": "4",
+        "release_notes":"Support for SDK 2.3",
+        "url": "pebble://appstore/52bb09616437d1d079000110"
     }
 }
