@@ -67,6 +67,23 @@
     <!-- Author CSS -->
     <link href="/css/main.css" rel="stylesheet">
 
+    <style>
+        .deprecation-notice {
+            background-color: #ffc107;
+            color: #212529;
+            border-bottom: 3px solid #856404;
+            padding: 16px 20px;
+            text-align: center;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.4;
+            font-weight: 500;
+            position: relative;
+            z-index: 1000;
+        }
+        .deprecation-notice strong { font-weight: 700; }
+    </style>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,4 +93,7 @@
   </head>
 
   <body>
+    <div class="deprecation-notice" role="alert">
+        <strong>Note:</strong> Wrist Presenter is no longer supported and is no longer being updated. This page is preserved for historical reference.
+    </div>
     <div class="container">
